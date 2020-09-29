@@ -3,6 +3,7 @@ body {
     font-family: arial;
     background-color: black;
     font-size: .75em;
+    margin-top: 0px;
 }
 li{
     list-style: none;
@@ -13,6 +14,10 @@ li{
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    background-color: white;
+    margin-top: 0px;
+    color: black;
+    border: 2px solid white;
 }
 
 button{
@@ -26,8 +31,6 @@ button{
 
 .driver {
     background-color: red;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
     padding-left: 20px;
     border: 2px solid white;
     width: 60%;

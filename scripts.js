@@ -45,12 +45,12 @@ function displayResults(json) {
 
     div.className = 'driver';
 
-    heading.textContent = "Driver's name: " + driverName;
+    heading.textContent = driverName;
     p.innerHTML = `<ul>
                         <li>Position: ${position}</li>
                         <li>Sponsor: ${sponsor}</li>
                         <li>Nationality: ${nationality}</li>
-                        <li>Driver Info: ${driverInfo}</li>
+                        <li><a href="${driverInfo}">Driver Info</a></li>
                     </ul>`
 
     div.appendChild(heading);
