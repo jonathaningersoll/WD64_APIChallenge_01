@@ -1,0 +1,39 @@
+body {
+    color: white;
+    font-family: arial;
+    background-color: black;
+    font-size: .75em;
+}
+li{
+    list-style: none;
+}
+
+#formWrapper{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+button{
+    background-color: yellow;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.driver {
+    background-color: red;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    border: 2px solid white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+}
