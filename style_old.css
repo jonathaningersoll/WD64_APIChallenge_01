@@ -1,0 +1,52 @@
+body {
+    color: white;
+    font-family: arial;
+    background-color: #333;
+    font-size: .75em;
+    margin-top: 0px;
+}
+li{
+    list-style: none;
+}
+
+#formWrapper{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: white;
+    margin-top: 0px;
+    color: black;
+    border: 2px solid white;
+}
+
+button{
+    background-color: yellow;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.driver {
+    background-color: red;
+    padding-left: 20px;
+    border: 2px solid white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: gold;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: cornsilk;
+}

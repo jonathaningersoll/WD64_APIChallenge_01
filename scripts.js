@@ -55,7 +55,7 @@ function displayResults(json) {
 
     div.appendChild(heading);
     div.appendChild(p);
-    document.body.appendChild(div);
+    section.appendChild(div);
 
     }
     
